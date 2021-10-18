@@ -1,0 +1,115 @@
+html{
+    font-family: 'WebFont', Arial, sans-serif;
+    background-color: transparent;
+    color: black;
+
+}
+
+.logo{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+
+}
+
+
+a:visited{
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* .links{
+    padding: 10px;
+} */
+
+header{
+    
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    background-color: #2000ff63;
+    padding: 2%;
+    
+}
+
+/* table */
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+h3, h4{
+    text-align: center;
+}
+
+#img{
+    width: 40%;
+    margin: 35%;
+    border: transparent 1px;
+    border-radius: 50%
+}
+
+
+
+.social-links{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin: 2%;
+}
+
+i{
+    color: black;
+    margin-right: 15px;
+}
+
+.about-me{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+    gap: 2px;
+    grid-auto-flow: row;
+    padding: 5%;
+}
+iframe{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.quote{
+    text-align: center;
+    
+    background-color: rgba(107, 106, 116, 0.726);
+}
+
+.personal-info{
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+    padding: 5%;
+
+}
+
+
+ul{
+    list-style-type: none;
+    padding-left: 0;
+    
+}
